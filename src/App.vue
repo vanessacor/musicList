@@ -1,14 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <Header />
+  <MusicList />
 </template>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import Header from "./components/Header.vue";
+import MusicList from "./components/MusicList.vue";
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+export default {
+  name: "App",
+  components: { Header, MusicList },
+};
 </script>
+
+    MusicList
 
 <style>
 #app {
