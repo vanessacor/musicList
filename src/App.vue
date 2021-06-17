@@ -7,13 +7,13 @@
 import Header from "./components/Header.vue";
 import MusicList from "./components/MusicList.vue";
 
+
 export default {
   name: "App",
   components: { Header, MusicList },
 };
 </script>
 
-    MusicList
 
 <style>
 #app {
